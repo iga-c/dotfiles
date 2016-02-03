@@ -36,6 +36,12 @@ set backspace=indent,eol,start
 " fileのエンコードをutf-8にする
 set encoding=utf-8
 
+" スワップファイルを作成しない
+set noswapfile
+
+" バックアップファイルを作成しない
+set nobackup
+
 " ----------- カラー設定 ------------
 " シンタックス ON
 syntax enable
